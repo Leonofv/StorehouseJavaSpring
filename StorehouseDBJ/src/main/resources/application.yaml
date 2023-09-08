@@ -1,0 +1,15 @@
+server:
+  port: 8093
+spring.jpa:
+  database: POSTGRESQL
+  hibernate. ddl-auto: update
+  show-sql: true
+spring.datasource:
+  driver-class-name: org.postgresql.Driver
+  url: jdbc:postgresql://localhost:8081/leonofv
+  username: postgres
+  password: postgres
+jwt:
+  secret: 78g49r3g0d9g8c3t8h49378u8v493z2j0i9y3m7j6w3g8f7t0
+  lifetime: 120m
+
